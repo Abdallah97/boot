@@ -11,19 +11,18 @@
       </nav>
     </header>
     <main>
-      <RobotBuilder />
+      <HomePage />
     </main>
   </div>
 </template>
 
 <script>
-// import HomePage from './home/HomePage.vue';
-import RobotBuilder from './build/RobotBuilder.vue';
+import HomePage from './components/HomePage.vue';
 
 export default {
   name: 'app',
   components: {
-    RobotBuilder,
+    HomePage,
   },
 };
 </script>
